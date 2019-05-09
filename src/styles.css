@@ -1,4 +1,5 @@
-body {
+
+body {                                              
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -6,21 +7,22 @@ body {
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-size: 550%;
+  color: rgb(255, 255, 255);    /*o titlos musicplaylist*/
+  font-size: 700%;
   text-align: center;
 }
 
+
   
 .box{
-  position: absolute;
-  top: 10%;
+  position: absolute;                  /*to type an artist kai search ws sunolo*/
+  top: 30%;
   left: 50%;
   width: 500px;
   transform: translate(-50%,-50%);
 }
 
-input{
+input{                        /* to megethos tou search kai tou type an artist*/
   position: relative;
   display: inline-block;
   font-size: 20px;
@@ -28,11 +30,11 @@ input{
   transition: .5s; 
 }
 
-input[type="text"]
+input[type="text"]               /* to  koutaki type an artist*/
 {
   background: #fff;
   width: 340px;
-  height: 50px;
+  height: 60px;
   border: none;
   outline: none;
   padding: 0 25px;
@@ -40,13 +42,13 @@ input[type="text"]
   
 }
 
-input[type="submit"]
+input[type="submit"]        /*to search*/
 {
   position: relative;
   left: -5px;
   border-radius: 0 25px 25px 0;
   width: 150px;
-  height: 50px;
+  height: 60px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -54,5 +56,5 @@ input[type="submit"]
 }
 
 input[type="submit"]:hover{
-  background: rgb(16, 165, 65);
+  background: rgb(16, 165, 65);   /* pws to search ginete prasino  */
 }
